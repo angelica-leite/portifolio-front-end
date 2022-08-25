@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import github from "../assets/img/github.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import whatsapp from "../assets/img/whatsapp.svg";
+import { saveAs } from "file-saver";
 
 export const NavBar = () => {
   const { activeLink, setActiveLink } = useState("home");
@@ -23,6 +24,12 @@ export const NavBar = () => {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+  };
+
+  const saveFile = () => {
+    saveAs(
+      "https://drive.google.com/file/d/17v3P9SBxb9N157NKtv0JgZR8kI7Pfj6c/view?usp=sharing"
+    );
   };
 
   return (
@@ -57,7 +64,7 @@ export const NavBar = () => {
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("home")}
+              onClick={() => onUpdateActiveLink("projects")}
             >
               Projects
             </Nav.Link>
@@ -86,8 +93,8 @@ export const NavBar = () => {
                 <img src={whatsapp} alt="Icon" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's connect</span>
+            <button className="vvd" onClick={() => saveFile()}>
+              <span>Download CV</span>
             </button>
           </span>
         </Navbar.Collapse>
