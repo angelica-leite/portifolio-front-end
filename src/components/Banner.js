@@ -69,7 +69,7 @@ export const Banner = () => {
                     <br />
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
+                      dataperiod="1000"
                       data-rotate='["Front End Developer"]'
                     >
                       <span className="wrap">{text}</span>
@@ -79,8 +79,8 @@ export const Banner = () => {
                     A decisão de entrar na área de Tecnologia foi imediata após
                     conhecer e entender mais de perto tudo que somos capazes de
                     realizar com a tecnologia, me apaixonei pelo aprendizado que
-                    tive até agora e o objetivo é aprender cada vez mais,
-                    transmitir o conhecimento e ajudar pessoas.
+                    tive até agora e o objetivo é aprender cada vez mais, criar
+                    soluções, transmitir o conhecimento e ajudar pessoas.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Lets Connect <ArrowRightCircle size={25} />

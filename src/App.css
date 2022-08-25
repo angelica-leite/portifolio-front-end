@@ -85,10 +85,6 @@ nav.navbar {
   transition: 0.32s ease-in-out;
   background-color: rgba(0, 0, 0, 0.9);
 }
-nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
-}
 nav.navbar a.navbar-brand {
   width: 8%;
   color: #fff !important;
@@ -103,7 +99,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+nav.navbar .navbar-nav {
   opacity: 1;
 }
 span.navbar-text {
