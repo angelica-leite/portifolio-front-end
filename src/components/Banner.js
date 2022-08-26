@@ -82,9 +82,11 @@ export const Banner = () => {
                     tive até agora e o objetivo é aprender cada vez mais, criar
                     soluções, transmitir o conhecimento e ajudar pessoas.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Lets Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a href="#connect">
+                    <button>
+                      Entre em Contato <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
