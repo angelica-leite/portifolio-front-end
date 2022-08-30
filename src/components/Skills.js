@@ -1,6 +1,8 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import metter from "./../assets/img/metodologias-ágeis.png";
+import components from "./../assets/img/components.png";
+import ux from "./../assets/img/ux.png";
+import api from "./../assets/img/api.png";
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -42,51 +44,73 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="Logo HTML"
+                  />
                   <h5>HTML5</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    alt="Logo CSS"
+                  />
+
                   <h5>CSS3</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="Logo JavaScript"
+                  />
                   <h5>JavaScript(ES6)</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    alt="Logo React"
+                  />
                   <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    alt="Logo Typescript"
+                  />
                   <h5>Typescript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    alt="Logo NextJs"
+                  />
                   <h5>Next</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Imagem loading" />
+                  <img
+                    src={metter}
+                    alt="Logo Metodologias ágeis"
+                    id="logo-ma"
+                  />
                   <h5>Metodologias Ágeis</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Imagem loading" />
-                  <h5>Programação Orientada a Objetos</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Imagem loading" />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Logo Git"
+                  />
                   <h5>Controle de versão com git</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Imagem loading" />
+                  <img src={components} alt="Logo styled-components" />
                   <h5>Bibliotecas de componentes</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Imagem loading" />
+                  <img src={ux} alt="Logo UX/UI" id="logo-ux" />
                   <h5>Noções de UX</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Imagem loading" />
+                  <img src={api} alt="Logo api" />
                   <h5>Consumo de APIs</h5>
                 </div>
               </Carousel>
