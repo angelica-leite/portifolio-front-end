@@ -2,6 +2,7 @@ import play from "./../assets/img/playkenzie.png";
 import nukenzie from "./../assets/img/nukenzie.png";
 import paises from "./../assets/img/paises.png";
 import pokemon from "./../assets/img/pokemon.png";
+import friendly from "./../assets/img/friendly.png";
 
 export const projects = [
   {
@@ -35,5 +36,13 @@ export const projects = [
     repo: "https://github.com/angelica-leite/pokemon-catalogue",
     app: "https://pokemon-catalogue.vercel.app",
     img: pokemon,
+  },
+  {
+    title: "Friendly Market",
+    description:
+      "Projeto final desenvolvido no Módulo 3 do curso de Front-End na Kenzie Academy Brasil",
+    repo: "https://github.com/grupo-1-friendlyMarket/projeto-final-m3",
+    app: "https://projeto-final-m3.vercel.app/",
+    img: friendly,
   },
 ];
